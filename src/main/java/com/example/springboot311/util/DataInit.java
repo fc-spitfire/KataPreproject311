@@ -1,15 +1,17 @@
-package web.util;
+package com.example.springboot311.util;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import web.model.User;
-import web.service.UserService;
+import com.example.springboot311.model.User;
+import com.example.springboot311.service.UserService;
 import javax.annotation.PostConstruct;
 
 @Component
 public class DataInit {
-    @Autowired
-    private UserService userService;
+    private final UserService userService;
+
+    public DataInit(UserService userService) {
+        this.userService = userService;
+    }
 
     @PostConstruct
     public void createUsersTable() {

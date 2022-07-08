@@ -1,6 +1,6 @@
-package web.service;
+package com.example.springboot311.service;
 
-import web.model.User;
+import com.example.springboot311.model.User;
 import java.util.List;
 
 public interface UserService {

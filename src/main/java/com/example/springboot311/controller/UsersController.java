@@ -1,19 +1,19 @@
-package web.controller;
+package com.example.springboot311.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import web.model.User;
-import web.service.UserService;
+import com.example.springboot311.model.User;
+import com.example.springboot311.service.UserService;
 import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/")
 public class UsersController {
 
-    private UserService userService;
+    private final UserService userService;
 
     @Autowired
     public UsersController(UserService userService) {

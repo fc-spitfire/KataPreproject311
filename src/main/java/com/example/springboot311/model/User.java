@@ -1,11 +1,11 @@
-package web.model;
+package com.example.springboot311.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users231")
 public class User {
 
     @Id
