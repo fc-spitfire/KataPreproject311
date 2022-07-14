@@ -1,8 +1,7 @@
-package com.example.springboot311.util;
+package com.example.springboot311.service;
 
 import org.springframework.stereotype.Component;
 import com.example.springboot311.model.User;
-import com.example.springboot311.service.UserService;
 import javax.annotation.PostConstruct;
 
 @Component
