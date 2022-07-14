@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457ce72-8f55-4720-9dbf-373cf60ff5a5" name="Changes" comment="08 07 22">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2073d86-c3a2-403c-8e24-4fd9a0a0e182.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a2073d86-c3a2-403c-8e24-4fd9a0a0e182.xml" afterDir="false" />
+    <list default="true" id="6457ce72-8f55-4720-9dbf-373cf60ff5a5" name="Changes" comment="14 07 22 removed util package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -119,6 +117,9 @@
       <workItem from="1657552016675" duration="348000" />
       <workItem from="1657552386952" duration="391000" />
       <workItem from="1657618268329" duration="3000" />
+      <workItem from="1657788399140" duration="267000" />
+      <workItem from="1657788744192" duration="67000" />
+      <workItem from="1657789252766" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="08 07 22">
       <created>1657284842377</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657284842377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="14 07 22 removed util package">
+      <created>1657788651455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657788651455</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08 07 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="08 07 22" />
+    <MESSAGE value="14 07 22 removed util package" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 07 22 removed util package" />
   </component>
 </project>
